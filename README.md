@@ -13,8 +13,7 @@ PayLens consists of two components:
 
 The project demonstrates a full data engineering workflow: from messy source data to a stakeholder-ready visualisation.
 
-> **Suggested image:** Screenshot of the full Tableau dashboard (`PAYLENS-TAB`) — all four panels visible, no filters applied.
-
+![Project Screenshot](PAYLENS-TAB.png)
 ---
 
 ## Repository Structure
@@ -100,14 +99,6 @@ Upper bound = Q3 + 3 * IQR =  $430,000
 
 ---
 
-## Dashboard
-
-Built in Tableau Public. Four panels with four global filter controls.
-
-> **Suggested image:** Close-up of the Education box plot panel showing the four education groups with gender overlay.
-
-> **Suggested image:** Close-up of the Job Field box plot panel showing all eleven field categories.
-
 ### Filters
 
 | Filter | Dimension |
@@ -174,11 +165,6 @@ The IQR calculation produces a lower bound of -$200,000. A salary cannot be nega
 **Fuzzy deduplication is O(n²)**  
 The nested loop approach does not scale beyond roughly 50,000 rows without a blocking strategy to reduce comparisons.
 
----
-
-## Technical Reference
-
-For a full line-by-line code walkthrough, architectural decisions, concept explanations, and notes on every function, see `PAYLENS_DEEP_DIVE.md`.
 
 ---
 
