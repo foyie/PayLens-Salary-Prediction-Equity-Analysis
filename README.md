@@ -2,7 +2,7 @@
 
 A salary data engineering pipeline and interactive analytics dashboard. Transforms a raw, inconsistent salary dataset into a clean, analysis-ready format, then visualises it across education, experience, job field, and gender dimensions.
 
-[LINK](https://public.tableau.com/views/Salaryanalysis_17693788614970/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) to Tableau dashboard: 
+[LINK](https://public.tableau.com/views/Salaryanalysis_17693788614970/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) to Tableau dashboard.
 ---
 
 ## Overview
